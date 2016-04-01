@@ -1,5 +1,6 @@
 
 .container {
+  font-family: 'Open Sans', sans-serif;
   width: 1200px;
   position: relative;
   margin: auto;
@@ -7,15 +8,15 @@
  ul {
    list-style: none;
  }
- header {margin-bottom: 10px;
+ header {
+   margin: 3px 10px;
+
  }
  .headerContent a {
+   font-size: 14px;
    text-decoration: none;
-   margin-right: 15px;
-   margin-left: 5px;
-   margin-top: 5px;
+   margin-right: 24px;
    color: black;
-
  }
 
  nav {
@@ -28,12 +29,11 @@
  }
 
  h2 {
-   /*text-align: center;*/
    position: absolute;
-   top: 130px;
-   right: 500px;
+   top: 107px;
+   right: 477px;
    color: white;
-   font-size: 40px;
+   font-size: 38px;
    font-weight: normal;
    text-align: center;
  }
@@ -42,52 +42,62 @@
    margin-left: 150px;
    margin-top: 35px;
  }
+
 .plans {
-  border: 1px solid green;
   width: 90%;
   text-align: center;
   float: left;
 }
 
 .plan5 {
-  border: 1px solid red;
-  width: 250px;
+  border: 1px solid #d7d7d8;
+  width: 256px;
   float: left;
-  margin-right: 10px;
+  margin-right: 14px;
 }
+
 .plan25 {
-  border: 1px solid red;
-  width: 250px;
+  border: 1px solid #d7d7d8;
+  width: 256px;
   float: left;
-  margin-right: 10px;
+  margin-right: 14px;
 }
+
 .plan45 {
-  border: 1px solid red;
-  width:250px;
+  border: 1px solid #d7d7d8;
+  width:256px;
   float: left;
-  margin-right: 10px;
+  margin-right: 14px;
 }
+
 .box1 {
-  padding: 20px;
+  padding: 29px;
   background-color: #4A9258;
   color: white;
 }
+
 .box2 {
-  padding: 20px;
+  padding: 29px;
   background-color: #2C4A81;
   color: white;
 }
+
 .box3 {
-  padding: 20px;
+  padding: 29px;
   background-color: #111111;
   color: white;
 }
+
 .one {
+  font-size: 15px;
   font-weight: bold;
 }
+
 .price {
-  font-size: 90px;
+  font-size: 76px;
   font-weight:lighter;
+  line-height: 81px;
+  margin-top: 0;*/
 }
 
 .month {
@@ -96,28 +106,60 @@
 
 .choices{
   font-size: 13px;
-  background-color: #E7E7E8;
+  background-color: #f0f0f0;
 }
 
 .choices p {
   margin-top: 0;
-  /*margin-bottom: 20px;*/
-  padding-top: 9px;
+  margin-bottom: 0;
+  padding: 9px;
+  border-bottom: 1px solid #d7d7d8;
 }
 
 .btn {
-  padding: 25px;
+  padding: 18px;
   background-color: white;
+  font-weight:bolder;
+}
+button {
+  border: 1px solid #d7d7d8;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: none;
 }
 
+.para {
+  clear: both;
+  padding-top: 38px;
+}
 
 .lorem {
-  width: 350px;
-  border: 1px solid red;
+  width: 375px;
+  height: 160px;
   float: left;
-  margin: 15px;
-  font-size: 14px;
+  margin:10px 30px 20px 10px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-size: 13px;
+}
+
+.lorem h3 {
+  font-weight:400;
+  font-size: 17px;
+  letter-spacing: 1.5px;
 }
 footer {
   clear: both;
+  font-size: 13px;
+  background-color: black;
+  color: grey;
+  padding-top:18px;
+  padding-bottom: 25px;
+  padding-right: 75px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
 }
